@@ -5,13 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Jonesy Games</title>
   <meta name="description" content="Jonesy Games, studio indépendant de jeux mobiles.">
+  <meta name="theme-color" content="#0a0b0d">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta property="og:title" content="Jonesy Games">
+  <meta property="og:site_name" content="Jonesy Games">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jonesygames.com/">
+  <meta property="og:image" content="https://jonesygames.com/og-image.png">
+  <meta property="og:locale" content="fr_FR">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
   <header>
     <div class="wrap">
-      <a class="brand" href="/">Jonesy Games</a>
+      <a class="brand" href="/" aria-label="Jonesy Games, accueil"><img src="/logo.svg" alt=""><span class="word">Jonesy<small>games</small></span></a>
       <nav>
         <a href="/battle-maidens/">Battle Maidens</a>
         <a href="/support/">Support</a>
@@ -21,27 +30,46 @@
   </header>
 
   <main class="wrap">
-    <h1>Jonesy Games</h1>
-    <p class="lead">Studio indépendant de jeux mobiles.</p>
-    <p class="muted" lang="en">Independent mobile game studio. <a href="/en/privacy/">Privacy policy (English)</a> · <a href="/support/#en">Support (English)</a></p>
+    <section class="hero">
+      <div>
+        <span class="label">// Studio indépendant · jeux mobiles</span>
+        <h1>Des jeux mobiles faits avec un peu de malice.</h1>
+        <p class="lead">Jonesy Games est un petit studio indépendant français. Nous créons des jeux pour Android et iOS.</p>
+      </div>
+      <img class="hero-cat" src="/logo.svg" width="340" height="323" alt="Jonesy, le chat noir mascotte du studio">
+    </section>
 
-    <a class="card" href="/battle-maidens/">
-      <strong>Battle Maidens</strong>
-      Jeu de cartes à collectionner : ouvrez des boosters, complétez vos albums et grimpez les ligues.
-    </a>
+    <section class="section">
+      <span class="label">// Nos jeux</span>
+      <a class="game" href="/battle-maidens/">
+        <span class="status">Bientôt · Android &amp; iOS</span>
+        <strong>Battle Maidens</strong>
+        <span>Jeu de cartes à collectionner : ouvrez des boosters, complétez vos albums et grimpez les ligues.</span>
+      </a>
+    </section>
 
-    <h2>Contact</h2>
-    <p><a href="mailto:contact@jonesygames.com">contact@jonesygames.com</a></p>
+    <section class="section">
+      <span class="label">// Pourquoi Jonesy ?</span>
+      <p class="lead">Notre nom est un clin d'œil à Jonesy, le chat qui survit à tout dans <i>Alien</i>. Notre mascotte, elle, préfère pousser les claviers du bord du bureau.</p>
+    </section>
 
-    <h2>Mentions légales</h2>
-    <p class="muted">
-      Éditeur : Jonesy Games — <a href="mailto:contact@jonesygames.com">contact@jonesygames.com</a><br>
-      Hébergement du site : GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.
-    </p>
+    <section class="section">
+      <span class="label">// Contact</span>
+      <p><a href="mailto:contact@jonesygames.com">contact@jonesygames.com</a></p>
+      <p class="muted" lang="en">English: <a href="/en/privacy/">Privacy policy</a> · <a href="/support/#en">Support</a></p>
+    </section>
+
+    <section class="section">
+      <span class="label">// Mentions légales</span>
+      <p class="muted">
+        Éditeur : Jonesy Games — <a href="mailto:contact@jonesygames.com">contact@jonesygames.com</a><br>
+        Hébergement du site : GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.
+      </p>
+    </section>
   </main>
 
   <footer>
-    <div class="wrap">© 2026 Jonesy Games · <a href="/privacy/">Confidentialité</a> · <a href="/support/">Support</a></div>
+    <div class="wrap"><span>© 2026 Jonesy Games</span><span><a href="/privacy/">Confidentialité</a> · <a href="/support/">Support</a></span></div>
   </footer>
 </body>
 </html>
