@@ -2,3 +2,6 @@
 logos.html
 logo.html
 logo-source.png
+
+# Outils Claude locaux (skill impeccable), pas pour le site public
+.claude/
