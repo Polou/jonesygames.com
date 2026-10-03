@@ -330,3 +330,8 @@ footer a:hover { color: var(--text); }
 /* L'ancre du bouton ne doit pas finir sous l'en-tête collant */
 #battle-maidens { scroll-margin-top: 72px; }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+
+/* Page 404 */
+.lost { display: grid; grid-template-columns: minmax(0, 260px) 1fr; align-items: center; gap: 48px; min-height: 60vh; }
+.lost-cat { width: 100%; height: auto; }
+@media (max-width: 760px) { .lost { grid-template-columns: 1fr; gap: 24px; min-height: 0; } .lost-cat { max-width: 160px; } }
